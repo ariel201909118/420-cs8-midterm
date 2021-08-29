@@ -1,0 +1,12 @@
+main {
+    background-image: linear-gradient(to right bottom, #d4c1c173, #a0c0ab8c, #8dbead7a), url('/Belle Maison/img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(226, 231, 231);
+    font-size: xxx-large;
+    font-family: cursive;
+}

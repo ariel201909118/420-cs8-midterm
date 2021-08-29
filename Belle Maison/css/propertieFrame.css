@@ -1,0 +1,151 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 85vh;
+    text-align: center;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.container1 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.next,
+.prev {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    padding: 1.6rem;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.framephoto {
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.framephoto img {
+    width: 100%;
+    height: 100%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+
+.pInfo {
+    text-align: justify;
+    width: 70%;
+}
+
+.pInfo p {
+    margin-left: 1rem;
+}
+
+.pInfo table {
+    text-align: justify;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#mc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 20rem;
+    height: 22rem;
+    border: 1px solid black;
+    float: right;
+    border-radius: .5rem;
+    background-color: azure;
+    margin-left: 6rem;
+}
+
+label {
+    float: left;
+    width: 5rem;
+    text-align: left;
+    margin: 0 .2rem;
+}
+
+input {
+    margin-left: 2rem;
+    margin-bottom: .5em;
+}
+
+form {
+    float: right;
+}
+
+button {
+    float: right;
+    margin: .5rem 7rem;
+}
+
+table,
+form {
+    align-self: center;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+form {
+    padding-top: 10%;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 35%;
+}
+
+.loanResult {
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0;
+}
+
+.loanResult td:nth-of-type(odd) {
+    float: left;
+    margin-right: 8rem;
+}
+
+.loanResult td:nth-of-type(even) {
+    float: right;
+}
